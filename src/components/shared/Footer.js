@@ -11,7 +11,7 @@ const Footer = () => {
      
       <footer className=" bg-blueGray-200 pt-8 pb-6">
 
-        <div className=" grid lg:grid-cols-3 gap-10" >
+        <div className=" grid lg:grid-cols-3 gap-10 container mx-auto px-10" >
         <div className=" space-y-5">
               <Link href="/"><h4 className="text-3xl font-bold text-blueGray-700 hover:text-bluePrimary transition-all duration-150 delay-150 ease-in-out">
                 NFTERS
@@ -48,104 +48,104 @@ const Footer = () => {
 
                 <div className="grid lg:grid-cols-2">
                 <div className="">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-6">
                   Market Place
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                        href="/"
                       >
                         All NFTs
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=njs-profile"
+                        href="/"
                       >
                         New
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                        href="/"
                       >
                         Art
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                        href="/"
                       >
                         Sports
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                        href="/"
                       >
                         Utility
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                        href="/"
                       >
                         Music
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                        href="/"
                       >
                         Domain Name
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-6">
                   My Account
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
+                        href="/"
                       >
                         Profile
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=njs-profile"
+                        href="/"
                       >
                         Favorite
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=njs-profile"
+                        href="/"
                       >
                         My Collections
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=njs-profile"
+                        href="/"
                       >
                        Settings
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -153,7 +153,7 @@ const Footer = () => {
             
             
                 <div className=" space-y-5">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-6">
                    Stay In The Loop
                   </span>
                    <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
@@ -164,14 +164,7 @@ const Footer = () => {
                 </div>
                 </div>
                 </div>
-          {/* <div className="flex flex-wrap text-left lg:text-left">
-           
-            <div className="w-full lg:w-6/12 px-4">
-              <div className="flex flex-wrap items-top mb-6">
-                
-              </div>
-            </div>
-          </div> */}
+          
 
 
 
@@ -183,14 +176,14 @@ const Footer = () => {
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © <span id="get-current-year">2023</span>
-                <a
-                  href="https://www.creative-tim.com/product/notus-js"
+                <Link
+                  href="/"
                   className="text-blueGray-500 hover:text-gray-800"
                   target="_blank"
                 >
                   {" "}
                   Sahara
-                </a>
+                </Link>
                 <a
                   href="https://www.creative-tim.com?ref=njs-profile"
                   className="text-blueGray-500 hover:text-blueGray-800"

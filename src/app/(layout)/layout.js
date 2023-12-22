@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
 
   
   return (
-   <div className="container mx-auto px-10">
+   <div className="">
 
 <link
         rel="stylesheet"
