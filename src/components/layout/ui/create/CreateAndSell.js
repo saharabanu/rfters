@@ -7,7 +7,7 @@ import person1 from '../../../../assets/images/discover/Ellipse-1.png';
 
 const CreateAndSell = () => {
   return (
-    <div className="container mx-auto px-4 py-20">
+    <div className="container mx-auto px-10 py-20">
       <div className="grid lg:grid-cols-2 gap-5">
         <div className="grid lg:grid-cols-2 gap-5 ">
          <div>
