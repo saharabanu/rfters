@@ -49,12 +49,12 @@ const CollectionPart3 = () => {
   return (
     <div className=" space-y-3">
 
-        <div className="pl-5">
+        <div className="px-5">
         <h2 className="text-lg font-black ">Top Collections over </h2>
         <p className="text-bluePrimary">Last 7 days</p>
         </div>
       {data?.map((item, index) => (
-        <div key={item?.id} className=" border-b-2 py-3">
+        <div key={item?.id} className=" border-b-2 py-3 mx-5">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <h5 className="font-bold text-md pr-5 pl-2">{index}</h5>
